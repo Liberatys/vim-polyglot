@@ -3471,6 +3471,6 @@ if exists("did_load_filetypes") && exists("g:polyglot_disabled")
   runtime! extras/filetype.vim
 endif
 
-" Restore 'cpoptions'
-let &cpo = s:cpo_save
-unlet s:cpo_save
+" " Restore 'cpoptions'
+" let &cpo = s:cpo_save
+" unlet s:cpo_save
